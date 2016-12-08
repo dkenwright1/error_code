@@ -9,7 +9,26 @@
 <body>
     <form id="form1" runat="server">
     <div>
-    test  2
+    <table>
+        <tr>
+            <td>enter username</td>
+            <td>
+                <asp:TextBox ID="user" runat="server"></asp:TextBox>
+            </td>
+        </tr>
+         <tr>
+            <td>enter password</td>
+            <td>
+                <asp:TextBox ID="txtpass" runat="server"></asp:TextBox>
+            </td>
+        </tr>
+        <td colspan = "2" align ="center">
+            <asp:Button ID="loginbtn" runat="server" Text="log in" OnClick="loginbtn_Click" />
+        </td>
+        <td colspan = "2" align ="center">
+            <asp:Button ID="clearbtn" runat="server" Text="clear" OnClick="clearbtn_Click" />
+        </td>
+    </table>
     </div>
     </form>
 </body>
