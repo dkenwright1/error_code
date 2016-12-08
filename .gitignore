@@ -250,3 +250,11 @@ paket-files/
 # JetBrains Rider
 .idea/
 *.sln.iml
+/version ctrl/version ctrl/ApplicationInsights.config
+/version ctrl/version ctrl/home.aspx.cs
+/version ctrl/version ctrl/Web.Release.config
+/version ctrl/version ctrl/Web.Debug.config
+/version ctrl/version ctrl/Web.config
+/version ctrl/version ctrl/version ctrl.csproj
+/version ctrl/version ctrl/packages.config
+/version ctrl/version ctrl/home.aspx.designer.cs
